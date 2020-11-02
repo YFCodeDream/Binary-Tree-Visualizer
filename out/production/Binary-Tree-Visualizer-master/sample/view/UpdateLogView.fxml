@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" styleClass="background" stylesheets="@DarkTheme.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.view.UpdateLogViewController">
+   <children>
+      <Label layoutX="68.0" layoutY="50.0" styleClass="label-header" text="Update" AnchorPane.leftAnchor="60.0" AnchorPane.topAnchor="40.0" />
+      <Label layoutX="60.0" layoutY="123.0" styleClass="label-bright" text="V2.0" AnchorPane.leftAnchor="60.0" AnchorPane.topAnchor="120.0" />
+      <Label layoutX="60.0" layoutY="156.0" text="Force users to input value list without duplicated value" AnchorPane.leftAnchor="60.0" AnchorPane.topAnchor="150.0" />
+      <Label layoutX="60.0" layoutY="184.0" text="Users can't insert node whose value has already in the value list" AnchorPane.leftAnchor="60.0" AnchorPane.topAnchor="170.0" />
+      <Button layoutX="657.0" layoutY="519.0" mnemonicParsing="false" onAction="#handleGotIt" text="Got it!" AnchorPane.bottomAnchor="40.0" AnchorPane.rightAnchor="60.0" />
+   </children>
+</AnchorPane>

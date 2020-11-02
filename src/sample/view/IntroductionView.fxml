@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="550.0" prefWidth="800.0" styleClass="background" stylesheets="@DarkTheme.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.view.IntroductionViewController">
+   <children>
+      <Label layoutX="80.0" layoutY="61.0" styleClass="label-header" text="Welcome to binary tree visualizer!" AnchorPane.leftAnchor="60.0" AnchorPane.topAnchor="40.0" />
+      <Label layoutX="60.0" layoutY="120.0" styleClass="label-bright" text="Some tips:" AnchorPane.leftAnchor="60.0" AnchorPane.topAnchor="120.0" />
+      <Label layoutX="60.0" layoutY="140.0" styleClass="label-bright" text="1. You can choose one of three methods to create a binary tree" AnchorPane.leftAnchor="60.0" AnchorPane.topAnchor="140.0" />
+      <Label layoutX="60.0" layoutY="160.0" styleClass="label-bright" text="2. You can choose one method to define your parameter list" AnchorPane.leftAnchor="60.0" AnchorPane.topAnchor="160.0" />
+      <Label layoutX="60.0" layoutY="180.0" text="The first is to input upper limit and lower limit, and this software can" AnchorPane.leftAnchor="60.0" AnchorPane.topAnchor="180.0" />
+      <Label layoutX="60.0" layoutY="200.0" text="generate a random natural number list according to your limit" AnchorPane.leftAnchor="60.0" AnchorPane.topAnchor="200.0" />
+      <Label layoutX="60.0" layoutY="220.0" text="The second is to input your own value list. " AnchorPane.leftAnchor="60.0" AnchorPane.topAnchor="220.0" />
+      <Label layoutX="60.0" layoutY="240.0" styleClass="label-bright" text="In version2.0, you will be forced to input a list without duplicated value, " AnchorPane.leftAnchor="60.0" AnchorPane.topAnchor="240.0" />
+      <Label layoutX="60.0" layoutY="285.0" styleClass="label-bright" text="3. The initial state is:" AnchorPane.leftAnchor="60.0" AnchorPane.topAnchor="285.0" />
+      <Label layoutX="60.0" layoutY="305.0" text="Both Sample Binary Tree and Binary Tree By Recursion will create a sample binary tree," AnchorPane.leftAnchor="60.0" AnchorPane.topAnchor="305.0" />
+      <Label layoutX="60.0" layoutY="325.0" text="and Binary Search Tree will create a sample binary search tree based on a random list consisted by" AnchorPane.leftAnchor="60.0" AnchorPane.topAnchor="325.0" />
+      <Label layoutX="60.0" layoutY="345.0" text="0, 1, 2" AnchorPane.leftAnchor="60.0" AnchorPane.topAnchor="345.0" />
+      <Label layoutX="60.0" layoutY="365.0" styleClass="label-bright" text="4. Some function only works when you choose Binary Search Tree" AnchorPane.leftAnchor="60.0" AnchorPane.topAnchor="365.0" />
+      <Label layoutX="60.0" layoutY="385.0" styleClass="label-bright" text="5. The tree figure named &quot;testGraph.png&quot; will be generated automatically in your current work directory" AnchorPane.leftAnchor="60.0" AnchorPane.topAnchor="385.0" />
+      <Label layoutX="60.0" layoutY="405.0" styleClass="label-header" text="Now create your own binary tree!" AnchorPane.leftAnchor="60.0" AnchorPane.topAnchor="405.0" />
+      <Button layoutX="533.0" layoutY="448.0" mnemonicParsing="false" onAction="#handleGotIt" text="Got it!" AnchorPane.bottomAnchor="40.0" AnchorPane.rightAnchor="60.0" />
+      <Label layoutX="60.0" layoutY="261.0" styleClass="label-bright" text="and you can't insert a node which has already in the current value list" />
+      <Label layoutX="60.0" layoutY="102.0" styleClass="label-bright" text="Here comes version 2.0!" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Binary_Tree_Visualizer_master.jnlp">
+  <information>
+    <title>Binary-Tree-Visualizer</title>
+    <vendor>Unknown</vendor>
+    <description>Binary-Tree-Visualizer-master</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Binary_Tree_Visualizer_master.jar" size="45650" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="1500" height="1100" main-class="sample.Main"  name="Binary-Tree-Visualizer-master" />
+  <update check="background"/>
+</jnlp>
