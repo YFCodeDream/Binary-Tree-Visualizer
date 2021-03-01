@@ -22,9 +22,9 @@
 在使用二叉搜索树时，拒绝用户重复插入已经存在于值列表中的节点
 
 > Thanks:
-
+>
 > JavaFX教程：https://code.makery.ch/zh-cn/library/javafx-tutorial/
-
+>
 > 绘制二叉树工具类参考资料：https://blog.csdn.net/hehenwm/article/details/38563523
-
+>
 > fontawesome字体图标库
